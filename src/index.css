@@ -1,18 +1,15 @@
-@import url('https://fonts.cdnfonts.com/css/amazon-ember');
 :root {
   --font-family: sans-serif;
 
-  --text: #06110c;
-  --accent-background: #daffef;
-  --darker-background: #04351f;
-  --background: #f4fbf8;
-  --primary: #008c51;
-  --secondary: #a5d6c1;
-  --tertiary: #10fb86;
-  --quaternary: #b1ad8d;
-  --quinary: #c4a9ae;
-  --accent: #bf0000;
-  --secondary-accent: #d77d7d;
+  --text: #050f14;
+  --accent-background: #82b9d6;
+  --darker-background: #132a36;
+  --background: #f4f9fc;
+  --primary: #3ba8e3;
+  --secondary: #263040;
+  --tertiary: #487e9b;
+  --accent: #ff9d0a;
+  --secondary-accent: #ffcf88;
 
   --black: #0000;
   --grey: #636363;

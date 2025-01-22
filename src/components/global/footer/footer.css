@@ -1,0 +1,34 @@
+.footer__container {
+    padding-top: 6rem;
+    background: var(--secondary);
+    border-top: solid 2.5px var(--accent);
+    text-align: center;
+}
+
+.footer__logo--container svg {
+    height: 10rem;
+    padding-bottom: 1.5rem;
+    width: auto;
+}
+
+.footer__bottom--container {
+    border-top: solid 2.5px var(--accent);
+    background: var(--secondary);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.footer__subheader {
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.footer__subheader a {
+    color: var(--white);
+    font-weight: 800;
+}
+
+.footer__subheader a:hover {
+    color: var(--accent);
+}
