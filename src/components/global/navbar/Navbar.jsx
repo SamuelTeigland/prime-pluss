@@ -47,7 +47,7 @@ export default function Navbar() {
                     Contact Us
                 </a>
                 <a href='#'>
-                    blog
+                    Blog
                 </a>
             </div>
         </div>
