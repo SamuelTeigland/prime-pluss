@@ -1,0 +1,23 @@
+.call__container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: var(--secondary);
+}
+
+.call__header {
+    width: 95%;
+    margin: auto;
+    text-align: left;
+    color: var(--background);
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.call__number {
+    width: 95%;
+    margin: auto;
+    text-align: left;
+    color: var(--primary);
+    font-weight: 800;
+    font-size: 2rem;
+}
