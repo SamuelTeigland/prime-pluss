@@ -1,26 +1,37 @@
 .hero__container {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+    background: linear-gradient(to top, #050f1470, #050f14a2), url(/public/images/house2.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .hero__header {
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     font-weight: 800;
-    color: var(--text);
+    color: var(--background);
+    width: 95%;
+    margin: auto;
+    padding-bottom: 2rem;
 }
 
 .hero__paragraph {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
-    font-weight: 200;
-    color: var(--secondary);
+    font-weight: 800;
+    color: var(--background);
     margin-top: 1rem;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 2rem;
 }
 
 .hero__button--container {
     display: flex;
     justify-content: center;
+    width: 95%;
+    margin: auto;
 }
 
 .hero__link {
@@ -29,6 +40,51 @@
 
 .hero__button {
     text-align: center;
-    font-size: 2rem;
-    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+@media (max-width: 850px) {
+    .hero__header {
+        font-size: 4rem;
+    }
+    
+    .hero__paragraph {
+        font-size: 2rem;
+    }
+
+    .hero__button {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .hero__header {
+        text-align: left;
+    }
+    
+    .hero__paragraph {
+        text-align: left;
+    }
+
+    .hero__button--container {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 415px) {
+    .hero__header {
+        font-size: 3rem;
+        padding-bottom: 1rem;
+    }
+    
+    .hero__paragraph {
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .hero__button--container {
+        font-size: 1.5rem;
+    }
 }

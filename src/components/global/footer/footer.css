@@ -13,7 +13,7 @@
 
 .footer__bottom--container {
     border-top: solid 2.5px var(--accent);
-    background: var(--secondary);
+    background: var(--accent-background);
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
