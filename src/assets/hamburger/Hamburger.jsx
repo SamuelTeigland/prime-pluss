@@ -11,6 +11,7 @@ export default function Hamburger() {
       <path
         d="M8.002 43.851h47.822v5.992H8.002zM8.212 28.93h47.821v5.992H8.212zM8.212 14.008h47.821V20H8.212z"
         fillRule="nonzero"
+        fill="#263040"
       />
     </svg>
   );
