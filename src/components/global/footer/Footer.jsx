@@ -27,7 +27,7 @@ export default function Footer() {
                         </h2>
                         <p><span>Delaware General Contractor</span> Lic# 2024712887</p>
                         <p><span>NewCastle CO. - Permit Endorsed GC</span> Lic# GC6533</p>
-                        <p><span>City of Wilmington</span> Lic# 11044845</p>
+                        <p><span>City of Wilmington</span> Lic# #114221</p>
                         <p><span>BPI Inspector</span> # 5070894</p>
                     </div>
                     <div className='footer__service--container'>
