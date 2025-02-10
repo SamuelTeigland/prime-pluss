@@ -16,6 +16,7 @@
     background: var(--accent-background);
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-top: 3rem;
 }
 
 .footer__subheader {
@@ -31,4 +32,68 @@
 
 .footer__subheader a:hover {
     color: var(--accent);
+}
+
+.footer__info--container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: left;
+    width: 95%;
+    margin: auto;
+    color: var(--background);
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__info--container div {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 20rem;
+    margin: auto;
+    height: 100%;
+    gap: .25rem;
+}
+
+.footer__info--container div h2 {
+    color: var(--primary);
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.footer__info--container div p {
+    font-weight: 200;
+    font-size: 1.15rem;
+    line-height: 1.65rem;
+}
+
+.footer__info--container div p span {
+    font-weight: 800;
+}
+
+@media (max-width: 700px) {
+    .footer__info--container {
+        grid-template-columns: repeat(1, auto);
+        gap: 1rem;
+    }
+
+    .footer__info--container div {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer__info--container div h2 {
+        color: var(--primary);
+        font-weight: 800;
+        font-size: 1.5rem;
+    }
+    
+    .footer__info--container div p {
+        font-weight: 200;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
 }
