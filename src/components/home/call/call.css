@@ -4,20 +4,82 @@
     background: var(--secondary);
 }
 
-.call__header {
+.call__subcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 95%;
+    margin: auto;
+}
+
+.call__header {
     margin: auto;
     text-align: left;
     color: var(--background);
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
 }
 
 .call__number {
-    width: 95%;
     margin: auto;
     text-align: left;
     color: var(--primary);
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.25rem;
+}
+
+.call__servicing--header {
+    margin: auto;
+    text-align: right;
+    color: var(--background);
+    font-weight: 200;
+    font-size: 1.15rem;
+}
+
+.call__servicing--number {
+    margin: auto;
+    text-align: right;
+    color: var(--primary);
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 950px) {
+    .call__subcontainer {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .call__servicing--header {
+        margin: auto;
+        text-align: left;
+    }
+    
+    .call__servicing--number {
+        margin: auto;
+        text-align: left;
+    }
+}
+
+@media (max-width: 350px) {
+    .call__header {
+        font-size: 1rem;
+    }
+    
+    .call__number {
+        font-size: 1.15rem;
+    }
+    
+    .call__servicing--header {
+        font-size: 1rem;
+    }
+    
+    .call__servicing--number {
+        font-size: 1.15rem;
+    }
 }
