@@ -9,6 +9,7 @@ function Home() {
       <Focus />
       <About />
       <Quote />
+      <Contact />
     </div>
   )
 }

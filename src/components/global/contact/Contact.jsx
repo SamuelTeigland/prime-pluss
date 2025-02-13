@@ -16,7 +16,7 @@ export default function Contact() {
             {/* start of form */}
 
             <div className='contact__form--container'>
-                <form className='contact__form'>
+                <form className='contact__form' action="https://formsubmit.co/395c919341c62f325f27afba96e5ab17" method="POST">
 
                     {/* Full Name */}
                     <div className='contact__form--wrapper'>
@@ -32,7 +32,7 @@ export default function Contact() {
                             required
                             type='text'
                             className='contact__input'
-                            placeholder='Full Name'
+                            placeholder='John Doe'
                         />
                     </div>
 
@@ -51,7 +51,7 @@ export default function Contact() {
                                 required
                                 type='email'
                                 className='contact__input'
-                                placeholder='Email'
+                                placeholder='example@primepluss.com'
                             />
                         </div>
 
@@ -68,7 +68,7 @@ export default function Contact() {
                                 required
                                 type='tel'
                                 className='contact__input'
-                                placeholder='Phone Number'
+                                placeholder='(123) 456-7891'
                             />
                         </div>
                     </div>
@@ -87,12 +87,12 @@ export default function Contact() {
                             required
                             type='number'
                             className='contact__input'
-                            placeholder='Zip Code'
+                            placeholder='21921'
                         />
                     </div>
 
                     {/* Services */}
-                    <div className='contact__form--wrapper'>
+                    <div className='contact__form--select'>
                         <label
                             htmlFor='service'
                             className='contact__label'
@@ -127,12 +127,14 @@ export default function Contact() {
                     </div>
 
                     {/* Submit */}
-                    <button
-                        type='submit'
-                        className='button__tertiary form__button'
-                    >
-                        Submit
-                    </button>
+                    <div className='contact__form--select'>
+                        <button
+                            type='submit'
+                            className='button__tertiary form__button'
+                        >
+                            Submit
+                        </button>
+                    </div>
                 </form>
             </div>
         </div>
