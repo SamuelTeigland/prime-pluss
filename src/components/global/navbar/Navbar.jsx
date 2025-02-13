@@ -19,8 +19,7 @@ export default function Navbar() {
                     <a href='#'>
                         Why Prime Pluss?
                     </a>
-                    <a
-                    target="_blank" rel="noopener noreferrer" href='mailto:Info@PrimePluss.com'>
+                    <a href='/#contact'>
                         Contact Us
                     </a>
                     <a href="#">
@@ -42,8 +41,7 @@ export default function Navbar() {
                 <a href='#'>
                     Why Prime Pluss?
                 </a>
-                <a
-                target="_blank" rel="noopener noreferrer" href='mailto:mstebbe@fishersumc.org'>
+                <a href='/#contact'>
                     Contact Us
                 </a>
                 <a href='#'>
