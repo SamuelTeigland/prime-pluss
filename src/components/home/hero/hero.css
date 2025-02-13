@@ -1,7 +1,7 @@
 .hero__container {
     padding-bottom: 10rem;
     padding-top: 10rem;
-    background: linear-gradient(to top, #050f1470, #050f14a2), url(/public/images/house2.jpg) no-repeat center center;
+    background: linear-gradient(to top, #050f1470, #050f14a2), url(/images/house2.jpg) no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }
