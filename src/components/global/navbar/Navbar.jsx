@@ -35,16 +35,16 @@ export default function Navbar() {
                 </div>
             </div>
             <div className={ isVisible === true ? 'hamburger__link--container shown__menu' : 'hamburger__link--container hidden__menu' }>
-                <a href='#'>
+                <a href='#' onClick={ () => { setVisible(!isVisible); } }>
                     Services
                 </a>
-                <Link to="/about-us">
+                <Link to="/about-us" onClick={ () => { setVisible(!isVisible); } }>
                     Why Prime Pluss?
                 </Link>
-                <a href='/#contact'>
+                <a href='/#contact' onClick={ () => { setVisible(!isVisible); } }>
                     Contact Us
                 </a>
-                <a href='#'>
+                <a href='#' onClick={ () => { setVisible(!isVisible); } }>
                     Blog
                 </a>
             </div>
