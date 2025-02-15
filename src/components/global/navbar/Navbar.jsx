@@ -16,9 +16,9 @@ export default function Navbar() {
                     <a href='#'>
                         Services
                     </a>
-                    <a href='#'>
+                    <Link to="/about-us">
                         Why Prime Pluss?
-                    </a>
+                    </Link>
                     <a href='/#contact'>
                         Contact Us
                     </a>
@@ -38,9 +38,9 @@ export default function Navbar() {
                 <a href='#'>
                     Services
                 </a>
-                <a href='#'>
+                <Link to="/about-us">
                     Why Prime Pluss?
-                </a>
+                </Link>
                 <a href='/#contact'>
                     Contact Us
                 </a>
