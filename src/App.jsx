@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Footer } from './components/components.js'
-import { Home, Thanks, About } from './pages/pages.js'
+import { Home, Thanks, About, Contact } from './pages/pages.js'
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,6 +15,7 @@ export default function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/thank-you" element={<Thanks />} />
             <Route path="/about-us" element={<About />} />
+            <Route path="/contact-us" element={<Contact />} />
         </Routes>
         <Footer />
     </Router>

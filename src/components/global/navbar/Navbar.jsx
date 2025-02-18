@@ -19,9 +19,9 @@ export default function Navbar() {
                     <Link to="/about-us">
                         Why Prime Pluss?
                     </Link>
-                    <a href='/#contact'>
+                    <Link to='/contact-us'>
                         Contact Us
-                    </a>
+                    </Link>
                     <a href="#">
                         Blog
                     </a>
@@ -41,9 +41,9 @@ export default function Navbar() {
                 <Link to="/about-us" onClick={ () => { setVisible(!isVisible); } }>
                     Why Prime Pluss?
                 </Link>
-                <a href='/#contact' onClick={ () => { setVisible(!isVisible); } }>
+                <Link to='/contact-us' onClick={ () => { setVisible(!isVisible); } }>
                     Contact Us
-                </a>
+                </Link>
                 <a href='#' onClick={ () => { setVisible(!isVisible); } }>
                     Blog
                 </a>
