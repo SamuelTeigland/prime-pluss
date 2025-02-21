@@ -1,10 +1,9 @@
-import { Hero, Call, Focus, Quote, About, Contact } from '../components/components'
+import { Hero, Focus, Quote, About, Contact } from '../components/components'
 
 function Home() {
 
   return (
     <div>
-      <Call />
       <Hero />
       <Focus />
       <About />
