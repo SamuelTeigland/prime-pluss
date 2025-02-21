@@ -1,14 +1,18 @@
 .navbar {
     position: sticky;
     top: 0;
+    background: var(--background);
+    border-bottom: solid 2.5px var(--primary);
 }
 
 .navbar__container {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
     text-align: center;
-    background: var(--accent-background);
-    border-bottom: solid 2.5px var(--accent);
+    display: flex;
+    justify-content: start;
+    gap: 3rem;
+    align-items: center;
+    width: 95%;
+    margin: auto;
 }
 
 .navbar__logo--container {
@@ -16,7 +20,7 @@
 }
 
 .navbar__logo--container svg {
-    height: 7rem;
+    height: 8rem;
     width: auto;
 }
 
@@ -24,13 +28,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .navbar__link--container a {
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--darker-background)
+}
+
+.navbar__button {
+    font-size: 1.25rem;
+    font-weight: 400;
 }
 
 .hamburger__container {
@@ -45,7 +54,7 @@
     height: 3rem;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 1030px) {
     .navbar__container {
         display: flex;
         justify-content: flex-start;
@@ -72,12 +81,11 @@
         justify-content: flex-start;
         align-items: flex-start;
         flex-direction: column;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
         background: var(--darker-background);
-        position: absolute;
         width: 100%;
         height: 100vh;
+        padding-top: 3rem;
+        position: relative;
     }
 
     .hamburger__link--container a {
@@ -93,6 +101,7 @@
         margin-right: auto;
         text-align: left;
         border-bottom: 1px solid var(--tertiary);
+        transition: .5;
     }
 
     .hamburger__link--container a:hover {
@@ -105,5 +114,10 @@
     
     .shown__menu {
         display: flex;
+    }
+
+    #navbar__special--link {
+        background: var(--tertiary);
+        border: none;
     }
 }
