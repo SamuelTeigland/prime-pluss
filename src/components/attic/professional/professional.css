@@ -57,3 +57,36 @@
     font-size: 1.15rem;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 900px) {
+    .professional__body {
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .professional__container {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .professional__header {
+        text-align: left;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin: auto;
+        width: 95%;
+    }
+
+    .professional__body {
+        grid-template-columns: repeat(1, auto);
+    }
+}
+
+@media (max-width: 250px) {
+    .professional__header {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
