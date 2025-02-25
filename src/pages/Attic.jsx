@@ -5,6 +5,7 @@ function Attic() {
   return (
     <div>
       <AtticServices />
+      <Professional />
       <Quote />
       <Focus />
       <Call />

@@ -11,7 +11,7 @@ export default function About() {
                 </div>
                 <div className='about__title--subcontainer'>
                     <p className='about__paragraph'>
-                        <span>We've been in the insulation and energy business for decades.</span> We install only the industry’s best products and every specialist on our team has the training and expertise to provide you with exceptional service every time.
+                        <span>With decades of experience in the home improvement field, we only install the industry's finest products.</span> Our insulation Teams are trained to provide World Class Service to our customers every time.
                     </p>
                     <Link to="/about-us" className='about__link'>
                         <button className='button__primary about__button'>Why Prime Pluss?</button>

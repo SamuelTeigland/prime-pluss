@@ -7,7 +7,7 @@ export default function Hero() {
             <h2 className='hero__header'>
                 The insulation and energy experts.
             </h2>
-            <p className='hero__paragraph'>Proudly serving Maryland, Delaware, and Pennsylvania.</p>
+            <p className='hero__paragraph'>Proudly serving Delaware, Maryland, and Pennsylvania.</p>
             <div className='hero__button--container'>
                 <Link className='hero__link'
                 to='/get-a-quote'>
