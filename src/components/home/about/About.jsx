@@ -1,5 +1,6 @@
 import './about.css'
 import { License, Support, Construction, Energy } from '../../../assets/assets';
+import { Link } from 'react-router-dom';
 
 export default function About() {
     return (
@@ -12,9 +13,9 @@ export default function About() {
                     <p className='about__paragraph'>
                         <span>We've been in the insulation and energy business for decades.</span> We install only the industry’s best products and every specialist on our team has the training and expertise to provide you with exceptional service every time.
                     </p>
-                    <a href="#" className='about__link'>
+                    <Link to="/about-us" className='about__link'>
                         <button className='button__primary about__button'>Why Prime Pluss?</button>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className='about__subcontainer--wrapper'>

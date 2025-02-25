@@ -6,10 +6,11 @@
 
 .call__subcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 95%;
     margin: auto;
+    gap: 3rem;
 }
 
 .call__header {
@@ -17,69 +18,35 @@
     text-align: left;
     color: var(--background);
     font-weight: 200;
-    font-size: 1.15rem;
+    font-size: 2rem;
 }
 
-.call__number {
-    margin: auto;
-    text-align: left;
-    color: var(--primary);
+.call__header span {
+    color: var(--tertiary);
     font-weight: 800;
-    font-size: 1.25rem;
 }
 
-.call__servicing--header {
-    margin: auto;
-    text-align: right;
-    color: var(--background);
-    font-weight: 200;
-    font-size: 1.15rem;
+.call__button {
+    font-size: 2rem;
 }
 
-.call__servicing--number {
-    margin: auto;
-    text-align: right;
-    color: var(--primary);
-    font-weight: 800;
-    font-size: 1.25rem;
-}
-
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     .call__subcontainer {
-        display: flex;
-        justify-content: start;
-        align-items: start;
-        width: 95%;
-        margin: auto;
         flex-direction: column;
         gap: 1rem;
     }
 
-    .call__servicing--header {
-        margin: auto;
-        text-align: left;
-    }
-    
-    .call__servicing--number {
-        margin: auto;
-        text-align: left;
+    .call__header {
+        text-align: center;
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 500px) {
     .call__header {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
-    
-    .call__number {
-        font-size: 1.15rem;
-    }
-    
-    .call__servicing--header {
-        font-size: 1rem;
-    }
-    
-    .call__servicing--number {
-        font-size: 1.15rem;
+
+    .call__button {
+        font-size: 1.5rem;
     }
 }

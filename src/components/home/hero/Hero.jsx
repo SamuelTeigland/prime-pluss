@@ -1,4 +1,5 @@
 import './hero.css'
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
     return (
@@ -8,10 +9,10 @@ export default function Hero() {
             </h2>
             <p className='hero__paragraph'>Proudly serving Maryland, Delaware, and Pennsylvania.</p>
             <div className='hero__button--container'>
-                <a className='hero__link'
-                target="_blank" rel="noopener noreferrer" href='mailto:Info@PrimePluss.com'>
+                <Link className='hero__link'
+                to='/get-a-quote'>
                     <button className='button__secondary hero__button'>Get a quote!</button>
-                </a>
+                </Link>
             </div>
         </div>
     )

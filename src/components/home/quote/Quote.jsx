@@ -1,4 +1,5 @@
 import './quote.css'
+import { Link } from 'react-router-dom';
 
 export default function Quote() {
     return (
@@ -9,9 +10,9 @@ export default function Quote() {
                         <p className='quote__paragraph'>Get a better price, experience, service, and value with <span>Prime Pluss</span>.</p>
                 </div>
                 <div className='quote__subcontainer'>
-                        <a href='/#' className='quote__link'>
+                        <Link to='/get-a-quote' className='quote__link'>
                             <button className='button__tertiary quote__button'>Get a FREE quote!</button>
-                        </a>
+                        </Link>
                 </div>
            </div>
         </div>
