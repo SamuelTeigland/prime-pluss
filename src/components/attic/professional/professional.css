@@ -17,26 +17,31 @@
     width: 95%;
     margin: auto;
     margin-top: 3rem;
+    justify-content: center;
 }
 
 .professional__body--container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     background: var(--secondary);
+    border-radius: .25rem;
 }
 
 .professional__image {
     height: 15rem;
     width: 100%;
     object-position: center;
-    object-fit: cover
+    object-fit: cover;
+    border-top-right-radius: .25rem;
+    border-top-left-radius: .25rem;
 }
 
 .professional__subheader,
 .professional__paragraph,
-.professional__link,
-.professional__button {
+.professional__link {
     width: 95%;
     margin: auto;
 }
@@ -56,6 +61,7 @@
 .professional__button {
     font-size: 1.15rem;
     margin-bottom: 1rem;
+    width: 100%;
 }
 
 @media (max-width: 900px) {

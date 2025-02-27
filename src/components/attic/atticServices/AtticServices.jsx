@@ -15,6 +15,7 @@ export default function AtticServices() {
             </div>
             <div className='atticServices__subcontainer'>
                 <div className='atticServices__subcontainer--buttons'>
+                    <img src="/images/mouse1.png" alt="" className="atticServices__image" />
                     <Link to='/contact-us'>
                         <button className='atticServices__button button__secondary'>Get a Quote!</button>
                     </Link>

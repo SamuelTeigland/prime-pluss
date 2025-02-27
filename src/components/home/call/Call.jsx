@@ -6,9 +6,13 @@ export default function Call() {
         <div className='call__container'>
             <div className='call__subcontainer'>
                 <div className='call__header--container'>
-                    <h2 className='call__header'>Call now for a faster response! <span>(302) 275-4692</span></h2>
+                    <h2 className='call__header'>Call now for a faster response!</h2>
                 </div>
-                <Link to="/contact-us">
+                <div className='call__paragraph--container'>
+                    <p className='call__paragraph'><span>DE#</span> (302) 241-0558</p>
+                    <p className='call__paragraph'><span>MD#</span> (410) 223-2665</p>
+                </div>
+                <Link to="/contact-us" className='call__link'>
                     <button className='call__button button__tertiary'>Contact Us!</button>
                 </Link>
             </div>

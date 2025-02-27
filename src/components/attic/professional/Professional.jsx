@@ -27,7 +27,7 @@ export default function Professional() {
                     </Link>
                 </div>
                 <div className='professional__body--container'>
-                    <img src="/images/insulation-installation.png" alt="Attic insulation installation" className="professional__image" />
+                    <img src="/images/batInsulation.jpg" alt="Attic insulation installation" className="professional__image" />
                     <h3 className="professional__subheader">Attic Insulation Installation</h3>
                     <p className="professional__paragraph">
                         Improve your indoor air quality, & increase your property value
@@ -37,7 +37,7 @@ export default function Professional() {
                     </Link>
                 </div>
                 <div className='professional__body--container'>
-                    <img src="/images/signs-of-rodent-issues-05.jpg" alt="Rodent issues" className="professional__image" />
+                    <img src="/images/mouse2.jpg" alt="Rodent issues" className="professional__image" />
                     <h3 className="professional__subheader">Attic Rodent Proofing</h3>
                     <p className="professional__paragraph">
                         Protect your home from health risks, bad odors, germs, & improved your air quality by sealing all entry points in your attic space.
