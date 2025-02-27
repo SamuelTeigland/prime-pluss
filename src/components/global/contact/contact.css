@@ -1,6 +1,7 @@
 .contact__container {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    z-index: -5;
 }
 
 .contact__header--container {
@@ -98,7 +99,6 @@
 .contact__input::placeholder, .contact__textarea::placeholder, .contact__select::placeholder {
     font-weight: 200;
     font-size: 1.25rem;
-    opacity: 0.5;
     color: var(--background);
 }
 

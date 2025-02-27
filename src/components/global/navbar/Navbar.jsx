@@ -38,7 +38,8 @@ export default function Navbar() {
                     </Link>
                     <div className='navbar__call--container'>
                         <h2 className='navbar__call--header'>Call now!</h2>
-                        <p className='navbar__call--paragraph'>(302) 275-4692</p>
+                        <p className='navbar__call--paragraph'>DE# (302) 241-0558</p>
+                        <p className='navbar__call--paragraph'>MD# (410) 223-2665</p>
                     </div>
                     <div className='hamburger__container' onClick={
                         () => {
@@ -73,7 +74,8 @@ export default function Navbar() {
                 </Link>
                 <div className='hamburger__call--container'>
                     <h2 className='hamburger__call--header'>Call now!</h2>
-                    <p className='hamburger__call--paragraph'>(302) 275-4692</p>
+                    <p className='hamburger__call--paragraph'>DE# (302) 241-0558</p>
+                        <p className='hamburger__call--paragraph'>MD# (410) 223-2665</p>
                 </div>
             </div>
         </div>

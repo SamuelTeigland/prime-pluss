@@ -19,7 +19,8 @@ export default function Footer() {
                         <h2>
                             Phone Number
                         </h2>
-                        <p>(302) 275-4692</p>
+                        <p><span>DE#</span> (302) 241-0558</p>
+                        <p><span>MD#</span> (410) 223-2665</p>
                     </div>
                     <div className='footer__licenses--container'>
                         <h2>

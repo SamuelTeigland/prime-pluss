@@ -9,8 +9,11 @@ export default function Contact() {
                     Fill out the form below OR call us now to schedule a FREE consultation
                 </p>
                 <h3 className='contact__subheader'>
-                    CALL NOW! <span>(302) 275-4692</span>
+                    CALL NOW!
                 </h3>
+                <p className='contact__paragraph'>
+                    DE# (302) 241-0558 or MD# (410) 223-2665
+                </p>
             </div>
 
             {/* start of form */}
