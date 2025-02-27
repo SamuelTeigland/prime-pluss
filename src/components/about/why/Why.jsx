@@ -19,8 +19,11 @@ export default function Why() {
                     We treat every home we work on with the utmost care—offering the expertise of a nationwide company, but with the personal touch and attention to detail you'd expect from a family-owned business.
                 </p>
             </div>
-            <div className="why__subcontainer">
-                <img src="/images/insulation.jpg" alt="Insulation" className="why__image" />
+            <div className="why__subcontainer" id='why__image--container'>
+                <img src="/images/mouse2.jpg" alt="" className="why__image" />
+                <img src="/images/houseDiagram.jpg" alt="" className="why__image" />
+                <img src="/images/batInsulation.jpg" alt="" className="why__image" />
+                <img src="/images/mouse1.png" alt="" className="why__image" />
             </div>
         </div>
 
