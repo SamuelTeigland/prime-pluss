@@ -19,3 +19,7 @@ export { default as Why } from './about/why/Why'
 // Attic
 export { default as AtticServices } from './attic/atticServices/AtticServices'
 export { default as Professional } from './attic/professional/Professional'
+
+// Crawl Space
+export { default as CrawlSpaceServices } from './crawlSpace/crawlSpaceServices/CrawlSpaceServices'
+export { default as ProfessionalTwo } from './crawlSpace/professional/Professional'
