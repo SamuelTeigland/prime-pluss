@@ -23,3 +23,7 @@ export { default as Professional } from './attic/professional/Professional'
 // Crawl Space
 export { default as CrawlSpaceServices } from './crawlSpace/crawlSpaceServices/CrawlSpaceServices'
 export { default as ProfessionalTwo } from './crawlSpace/professional/Professional'
+
+// Other Services
+export { default as WhyPrimePluss } from './otherServices/whyPrimePluss/WhyPrimePluss'
+export { default as Services } from './otherServices/services/Services'

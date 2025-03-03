@@ -1,9 +1,11 @@
-import { Coming } from '../components/components'
+import { Services, WhyPrimePluss, Contact } from '../components/components'
 
 export default function OtherServices() {
     return (
         <div>
-            <Coming />
+            <Services />
+            <WhyPrimePluss />
+            <Contact />
         </div>
     )
 }
