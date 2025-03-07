@@ -6,3 +6,6 @@ export { default as License } from './license/License'
 export { default as Construction } from './construction/Construction';
 export { default as Support } from './support/Support';
 export { default as Energy } from './energy/Energy';
+export { default as Calendar } from './calendar/Calendar'
+export { default as CreditCard } from './creditCard/CreditCard'
+export { default as Stock } from './stock/Stock'

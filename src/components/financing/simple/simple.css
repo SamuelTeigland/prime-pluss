@@ -1,0 +1,154 @@
+.simple__container {
+    padding-bottom: 6rem;
+}
+
+.simple__header--container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    background: var(--secondary);
+}
+
+.simple__header {
+    color: var(--primary);
+    font-size: 6rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+
+.simple__top--subheader {
+    font-size: 3rem;
+    width: 80%;
+    margin: auto;
+    font-weight: 200;
+    color: var(--background);
+}
+
+.simple__top--subheader span {
+    font-weight: 800;
+    color: var(--accent);
+}
+
+.simple__subcontainer {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 3rem;
+    width: 95%;
+    margin: auto;
+}
+
+.simple__svg--container {
+    height: 6rem;
+    width: auto;
+}
+
+.simple__svg--container svg {
+    height: 100%;
+    width: auto;
+}
+
+
+.simple__wrapper {
+    width: 33%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    border: 2px solid var(--primary);
+    padding: 1rem;
+    height: 20rem;
+    border-radius: .25rem;
+}
+
+.simple__subheader {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.simple__paragraph {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 200;
+    color: var(--secondary);
+}
+
+@media (max-width: 1270px) {
+    .simple__svg--container {
+        height: 4rem;
+        width: auto;
+    }
+
+    .simple__wrapper {
+        height: 25rem;
+    }
+}
+
+@media (max-width: 950px) {
+    .simple__subcontainer {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .simple__subcontainer {
+        flex-direction: column;
+    }
+
+    .simple__wrapper {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    .simple__subheader {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    .simple__paragraph {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        font-weight: 200;
+        color: var(--secondary);
+    }
+
+    .simple__header {
+        font-size: 4rem;
+    }
+
+    .simple__top--subheader {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .simple__header {
+        font-size: 3rem;
+        text-align: left;
+        margin: auto;
+        width: 95%;
+    }
+
+    .simple__top--subheader {
+        font-size: 1.5rem;
+        text-align: left;
+        margin: auto;
+        width: 95%;
+        margin-top: 1rem;
+    }
+
+    .simple__subheader {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    .simple__paragraph {
+        font-size: 1.15rem;
+        line-height: 1.5rem;
+    }
+}

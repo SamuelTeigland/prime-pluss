@@ -1,9 +1,10 @@
-import { Coming } from '../components/components'
+import { Contact, Simple, Faq, Dream } from '../components/components'
 
 export default function Financing() {
     return (
         <div>
-            <Coming />
+            <Simple />
+            <Contact />
         </div>
     )
 }

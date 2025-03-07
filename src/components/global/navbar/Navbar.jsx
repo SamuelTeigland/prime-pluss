@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className='navbar'>
             <div className='navbar__container'>
                 <a href='/' className='navbar__logo--container'>
-                    <MainLogo />
+                    <img src="/images/PrimePlussLogo.png" alt="Prime Pluss Logo" className="navbar__image" />
                 </a>
                 <div className='navbar__link--container'>
                     <Link to='/attic-cleaning-near-me'>

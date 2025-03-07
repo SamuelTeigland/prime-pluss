@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-.footer__logo--container svg {
+.footer__image {
     height: 10rem;
     padding-bottom: 1.5rem;
     width: auto;
@@ -82,6 +82,10 @@
     .footer__info--container div {
         width: 100%;
     }
+
+    .footer__image {
+        height: 7rem;
+    }
 }
 
 @media (max-width: 400px) {
@@ -95,5 +99,9 @@
         font-weight: 200;
         font-size: 1rem;
         line-height: 1.5rem;
+    }
+
+    .footer__image {
+        height: 4rem;
     }
 }

@@ -27,3 +27,8 @@ export { default as ProfessionalTwo } from './crawlSpace/professional/Profession
 // Other Services
 export { default as WhyPrimePluss } from './otherServices/whyPrimePluss/WhyPrimePluss'
 export { default as Services } from './otherServices/services/Services'
+
+// Financing
+export { default as Simple } from './financing/simple/Simple'
+export { default as Faq } from './financing/faq/Faq'
+export { default as Dream } from './financing/dream/Dream'

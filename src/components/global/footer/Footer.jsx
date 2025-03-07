@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div className='footer__container'>
             <div className='footer__logo--container'>
-                <SecondaryLogo />
+                <img src="/images/PrimePlussLogo.png" alt="Prime Plus Logo" className="footer__image" />
                 <div className='footer__info--container'>
                     <div className='footer__address--container'>
                         <h2>

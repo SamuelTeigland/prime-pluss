@@ -19,7 +19,7 @@
     cursor: pointer;
 }
 
-.navbar__logo--container svg {
+.navbar__image {
     height: 8rem;
     width: auto;
 }
@@ -170,8 +170,18 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 700px) {
+    .navbar__image {
+        height: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
     .navbar__call--container {
         display: none;
+    }
+
+    .navbar__image {
+        height: 4rem;
     }
 }
