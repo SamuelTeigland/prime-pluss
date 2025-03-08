@@ -1,4 +1,4 @@
-import { Contact, Simple, Faq, Dream } from '../components/components'
+import { Contact, Simple } from '../components/components'
 
 export default function Financing() {
     return (
