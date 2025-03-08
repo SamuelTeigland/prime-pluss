@@ -1,7 +1,7 @@
 .aboutUs__container {
     padding-bottom: 5rem;
     padding-top: 5rem;
-    background: linear-gradient(to top, #78858ba2, #ffce847e), url(/images/attic.jpg) no-repeat center center;
+    background: linear-gradient(to top, #78858ba2, #ffce847e), url(/images/crawl-space-2.png) no-repeat center center;
     background-size: cover;
     overflow: hidden;
 }

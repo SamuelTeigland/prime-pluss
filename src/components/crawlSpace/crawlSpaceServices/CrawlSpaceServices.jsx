@@ -15,7 +15,7 @@ export default function CrawlSpaceServices() {
         </div>
         <div className='crawlSpaceServices__subcontainer'>
             <div className='crawlSpaceServices__subcontainer--buttons'>
-                <img src="/images/crawl-space.png" alt="" className="crawlSpaceServices__image" />
+                <img src="/images/crawl-space-2.png" alt="" className="crawlSpaceServices__image" />
                 <Link to='/contact-us'>
                     <button className='crawlSpaceServices__button button__secondary'>Get a Quote!</button>
                 </Link>

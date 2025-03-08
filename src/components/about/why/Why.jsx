@@ -8,7 +8,7 @@ export default function Why() {
                     Prime Pluss is the <span>industry leader</span> in insulation.
                 </h2>
                 <p className="why__paragraph">
-                    At Prime Pluss, we believe the foundation of a successful home improvement project is choosing the right partner. With decades of experience, we’ve built strong, lasting relationships with our clients, ensuring their insulation projects are smooth and stress-free.
+                    At Prime Pluss, we believe the foundation of a successful home improvement project is choosing the right partner. With decades of home service experience, we’ve built strong, lasting relationships with our clients, ensuring their insulation projects are smooth and stress-free.
                 </p>
 
                 <p className="why__paragraph">
@@ -20,10 +20,10 @@ export default function Why() {
                 </p>
             </div>
             <div className="why__subcontainer" id='why__image--container'>
-                <img src="/images/mouse2.jpg" alt="" className="why__image" />
-                <img src="/images/houseDiagram.jpg" alt="" className="why__image" />
-                <img src="/images/batInsulation.jpg" alt="" className="why__image" />
-                <img src="/images/mouse1.png" alt="" className="why__image" />
+                <img src="/images/blown-insulation.png" alt="Blown Insulation" className="why__image" />
+                <img src="/images/houseDiagram.jpg" alt="House Diagram" className="why__image" />
+                <img src="/images/batInsulation.jpg" alt="Bat Insulation" className="why__image" />
+                <img src="/images/mouse1.png" alt="Mouse Infestation" className="why__image" />
             </div>
         </div>
 

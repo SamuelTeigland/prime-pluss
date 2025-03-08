@@ -7,7 +7,7 @@ export default function ProfessionalTwo() {
             <h2 className="professional__header">Our Top Crawl Space Services</h2>
             <div className='professional__body'>
                 <div className='professional__body--container'>
-                    <img src="/images/attic-cleaning.png" alt="Cleaning out crawl space" className="professional__image" />
+                    <img src="/images/crawl-space-inspection.png" alt="Cleaning out crawl space" className="professional__image" />
                     <h3 className="professional__subheader">Crawl Space Cleaning Service</h3>
                     <p className="professional__paragraph">
                         We remove mold, mildew, and other containments from your crawl space to preserve the quality of your home's air.
@@ -17,7 +17,7 @@ export default function ProfessionalTwo() {
                     </Link>
                 </div>
                 <div className='professional__body--container'>
-                    <img src="/images/attic-removal.png" alt="Crawl space insulation removal" className="professional__image" />
+                    <img src="/images/blown-insulation.png" alt="Crawl space insulation removal" className="professional__image" />
                     <h3 className="professional__subheader">Crawl Space Insulation Removal</h3>
                     <p className="professional__paragraph">
                         On top of decontaminating your crawl space we will also remove any old insulation & air seal your crawl space.

@@ -5,7 +5,7 @@ export default function AtticServices() {
     return (
         <div className='atticServices__container'>
             <div className='atticServices__subcontainer'>
-                <h2 className='atticServices__header'>Professional <span>Attic Cleaning</span> Services</h2>
+                <h2 className='atticServices__header'>Professional <span>Attic Insulation</span> Services</h2>
                 <div className='atticServices__subcontainer--paragraph'>
                     <p className="atticServices__paragraph">✓ Save money on energy bills</p>
                     <p className="atticServices__paragraph">✓ Keep rodents out for good</p>
@@ -15,7 +15,7 @@ export default function AtticServices() {
             </div>
             <div className='atticServices__subcontainer'>
                 <div className='atticServices__subcontainer--buttons'>
-                    <img src="/images/mouse1.png" alt="" className="atticServices__image" />
+                    <img src="/images/blown-insulation.png" alt="" className="atticServices__image" />
                     <Link to='/contact-us'>
                         <button className='atticServices__button button__secondary'>Get a Quote!</button>
                     </Link>

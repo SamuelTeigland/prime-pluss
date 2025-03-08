@@ -7,10 +7,10 @@ export default function Professional() {
             <h2 className="professional__header">Our Top Attic Services</h2>
             <div className='professional__body'>
                 <div className='professional__body--container'>
-                    <img src="/images/attic-cleaning.png" alt="Cleaning out attic" className="professional__image" />
-                    <h3 className="professional__subheader">Attic Cleaning Service</h3>
+                    <img src="/images/batInsulation.jpg" alt="Attic insulation installation" className="professional__image" />
+                    <h3 className="professional__subheader">Attic Insulation Installation</h3>
                     <p className="professional__paragraph">
-                        Get rid of rodent waste and bad germs, along with any odors or contaminants while properly sanitizing your attic space.
+                        Improve your indoor air quality, & increase your property value
                     </p>
                     <Link to="/contact-us" className="professional__link">
                         <button className="button__primary professional__button">Book Now!</button>
@@ -27,10 +27,10 @@ export default function Professional() {
                     </Link>
                 </div>
                 <div className='professional__body--container'>
-                    <img src="/images/batInsulation.jpg" alt="Attic insulation installation" className="professional__image" />
-                    <h3 className="professional__subheader">Attic Insulation Installation</h3>
+                    <img src="/images/attic-cleaning.png" alt="Cleaning out attic" className="professional__image" />
+                    <h3 className="professional__subheader">Attic Cleaning Service</h3>
                     <p className="professional__paragraph">
-                        Improve your indoor air quality, & increase your property value
+                        Get rid of rodent waste and bad germs, along with any odors or contaminants while properly sanitizing your attic space.
                     </p>
                     <Link to="/contact-us" className="professional__link">
                         <button className="button__primary professional__button">Book Now!</button>
