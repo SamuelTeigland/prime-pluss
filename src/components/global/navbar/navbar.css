@@ -20,7 +20,7 @@
 }
 
 .navbar__image {
-    height: 8rem;
+    height: 6rem;
     width: auto;
 }
 
@@ -28,11 +28,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .navbar__link--container a {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: 400;
     color: var(--darker-background)
 }

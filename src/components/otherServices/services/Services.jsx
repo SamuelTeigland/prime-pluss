@@ -10,7 +10,7 @@ export default function Services() {
 
                 <div className='services__subcontainer--wrapper'>
                     <div className='services__image--subcontainer'>
-                        <img src="/images/Commercial-Disinfecting.jpg" alt="" className="services__images" />
+                        <img src="/images/disinfecting.png" alt="" className="services__images" />
                     </div>
                     <div className='services__text--subcontainer'>
                         <h2 className='services__subheader'>
@@ -31,7 +31,7 @@ export default function Services() {
                             Gutter Cleaning
                         </h2>
                         <p className='services__paragraph'>
-                            When it comes to your list of home improvement projects, a cleaning your gutter can be one of the most challenging tasks to complete yourself. A professionally cleaned gutter can protect your home from water damge. You can’t put it off for long, and no homeowner wants to deal with water damage. Prime Pluss offers residential gutter cleaning that will get rid of any build-up, and protect your house.
+                            When it comes to your list of home improvement projects, a cleaning your gutter can be one of the most challenging tasks to complete yourself.  Protect your foundation, avoid damage to siding, keep your basement or crawl space dry, keep mold at bay, prevents water staining and wood rot, and prevents soil erosion.
                         </p>
                     </div>
                 </div>

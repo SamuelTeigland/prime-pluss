@@ -8,7 +8,7 @@ export default function Why() {
                     Prime Pluss is the <span>industry leader</span> in insulation.
                 </h2>
                 <p className="why__paragraph">
-                    At Prime Pluss, we believe the foundation of a successful home improvement project is choosing the right partner. With decades of home service experience, we’ve built strong, lasting relationships with our clients, ensuring their insulation projects are smooth and stress-free.
+                    At Prime Pluss, we believe the foundation of a successful home improvement project is choosing the right partner. With decades of home service experience, we’ve built strong, lasting relationships with our clients, ensuring their projects are smooth and stress-free.
                 </p>
 
                 <p className="why__paragraph">
