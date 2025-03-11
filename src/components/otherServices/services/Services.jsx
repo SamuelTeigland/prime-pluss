@@ -28,10 +28,10 @@ export default function Services() {
                     </div>
                     <div className='services__text--subcontainer'>
                         <h2 className='services__subheader'>
-                            Gutter Cleaning
+                            Gutter Replacement
                         </h2>
                         <p className='services__paragraph'>
-                            When it comes to your list of home improvement projects, a cleaning your gutter can be one of the most challenging tasks to complete yourself.  Protect your foundation, avoid damage to siding, keep your basement or crawl space dry, keep mold at bay, prevents water staining and wood rot, and prevents soil erosion.
+                            When it comes to home improvement projects, replacing your gutter should be left to the professionals.  Protect your foundation, avoid damage to siding, keep your basement or crawl space dry, keep mold at bay, prevents water staining and wood rot, and prevents soil erosion.
                         </p>
                     </div>
                 </div>
