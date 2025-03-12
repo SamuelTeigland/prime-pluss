@@ -7,7 +7,7 @@ export default function ProfessionalTwo() {
             <h2 className="professional__header">Our Top Crawl Space Services</h2>
             <div className='professional__body'>
                 <div className='professional__body--container'>
-                    <img src="/images/crawl-space-inspection.png" alt="Cleaning out crawl space" className="professional__image" />
+                    <img src="/images/crawl-space-ba.png" alt="Cleaning out crawl space" className="professional__image" id='professional__crawl--space'/>
                     <h3 className="professional__subheader">Crawl Space Cleaning Service</h3>
                     <p className="professional__paragraph">
                         We remove mold, mildew, and other containments from your crawl space to preserve the quality of your home's air.

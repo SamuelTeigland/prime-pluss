@@ -39,6 +39,10 @@
     border-top-left-radius: .25rem;
 }
 
+#professional__crawl--space {
+    object-fit: fill;
+}
+
 .professional__subheader,
 .professional__paragraph,
 .professional__link {
