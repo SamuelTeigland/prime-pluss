@@ -17,7 +17,7 @@ export default function ProfessionalTwo() {
                     </Link>
                 </div>
                 <div className='professional__body--container'>
-                    <img src="/images/blown-insulation.png" alt="Crawl space insulation removal" className="professional__image" />
+                    <img src="/images/attic-removal.png" alt="Crawl space insulation removal" className="professional__image" />
                     <h3 className="professional__subheader">Crawl Space Insulation Removal</h3>
                     <p className="professional__paragraph">
                         On top of decontaminating your crawl space we will also remove any old insulation & air seal your crawl space.
