@@ -19,7 +19,7 @@ export default function Contact() {
             {/* start of form */}
 
             <div className='contact__form--container'>
-                <form className='contact__form' action="https://formsubmit.co/samuelteigland@gmail.com" method="POST">
+                <form className='contact__form' action="https://formsubmit.co/bb8741f025184dda681fe169ed902311" method="POST">
                     <input type="hidden" name="_subject" value="SUBMISSION: Contact Form"></input>
                     <input type="hidden" name="_autoresponse" value="Thanks for reaching out to Prime Pluss Services!  We will respond shortly."></input>
                     <input type="hidden" name="_cc" value="billpease0157@gmail.com"></input>
